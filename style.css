@@ -168,12 +168,12 @@ h2 {
 
 .tokenomic-wrapper {
   background-image: url(/gallery/tokenomics-bg.png);
-  min-height: 020vh;
-  background-position: center;
+  min-height: 100vh;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 
-  .row {
+  .tok-border {
     border-bottom: 1px solid #ffffff4d;
   }
 }
@@ -190,7 +190,7 @@ h2 {
 /* starship section */
 
 .starship-wrapper {
-  background-image: url(/public/gallery/starship-bg.png);
+  background-image: url(/gallery/starship-bg.png);
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -216,4 +216,16 @@ h2 {
       line-height: normal;
     }
   }
+}
+
+/* vedio sectio  */
+
+/* starship two section */
+
+.starship-two-wrapper {
+  background-image: url(/public/gallery/starship-image.png);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
