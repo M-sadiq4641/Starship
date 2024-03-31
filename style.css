@@ -129,54 +129,31 @@ h2 {
   background-color: white !important;
 }
 
-.hero-h1 {
-  bottom: 260px;
-  left: 190px;
-  line-height: 50px;
-  /* text-shadow: 0.5px 0.5px 0.5px black; */
-  text-shadow: 2px 2px 2px #000000;
+.hero-container {
+  height: 70vh;
 
-  @media (max-width: 992px) {
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    line-height: 40px;
-    font-size: 35px;
-    bottom: 230px;
+  p {
+    width: 587px;
+    text-shadow: 1px 1px 1px #000000;
+
+    @media (max-width: 992px) {
+      width: 100%;
+    }
   }
 
-  @media (max-width: 576px) {
-    font-size: 30px;
-    width: 100%;
-    line-height: normal;
-    bottom: 260px;
-  }
-}
+  h1 {
+    line-height: 50px;
+    text-shadow: 2px 2px 2px #000000;
 
-.hero-p {
-  bottom: 170px;
-  left: 190px;
-  width: 587px;
-  text-shadow: 1px 1px 1px #000000;
-  text-wrap: balance;
-
-  @media (max-width: 992px) {
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    width: 80%;
-    bottom: 130px;
+    @media (max-width: 576px) {
+      font-size: 30px;
+      line-height: normal;
+    }
   }
 }
 
 .hero-button {
-  bottom: 140px;
-  left: 190px;
-  @media (max-width: 992px) {
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 100px;
-  }
+  width: 150px;
 }
 
 .hero-button:hover {
@@ -191,7 +168,7 @@ h2 {
 
 .tokenomic-wrapper {
   background-image: url(/gallery/tokenomics-bg.png);
-  min-height: 100vh;
+  min-height: 020vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,5 +184,36 @@ h2 {
 
   @media (max-width: 992px) {
     width: 100%;
+  }
+}
+
+/* starship section */
+
+.starship-wrapper {
+  background-image: url(/public/gallery/starship-bg.png);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.starship-container {
+  height: 80vh;
+
+  p,
+  h1 {
+    width: 580px;
+    text-shadow: 1px 1px 1px #000000;
+
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    @media (max-width: 576px) {
+      font-size: 30px;
+      line-height: normal;
+    }
   }
 }
