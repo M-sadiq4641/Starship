@@ -90,6 +90,10 @@
 
 /* font weidght ends here */
 
+body {
+  background-color: black !important;
+}
+
 @font-face {
   font-family: D-Din;
   src: url(/fonts/D-DIN-Bold.otf);
@@ -223,9 +227,36 @@ h2 {
 /* starship two section */
 
 .starship-two-wrapper {
-  background-image: url(/public/gallery/starship-image.png);
+  background-image: url(/gallery/starship-image.png);
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* roadmap section  */
+
+.roadmap-wrapper {
+  min-height: 50vh;
+}
+
+.roadmap-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+
+  h4 {
+    color: #868686;
+  }
+
+  .roadmap-border {
+    border-bottom: 1px solid #868686;
+  }
+}
+
+.roadmap-scroll::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+.roadmap-scroll::-webkit-scrollbar {
+  height: 1px;
 }
