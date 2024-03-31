@@ -92,7 +92,7 @@
 
 @font-face {
   font-family: D-Din;
-  src: url(/public/fonts/D-DIN-Bold.otf);
+  src: url(/fonts/D-DIN-Bold.otf);
 }
 
 * {
@@ -107,7 +107,7 @@ h2 {
 /* hero section  */
 
 .hero-wrapper {
-  background-image: url(/public/gallery/hero-bg.png);
+  background-image: url(/gallery/hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
