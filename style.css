@@ -95,11 +95,19 @@
   src: url(/fonts/D-DIN-Bold.otf);
 }
 
+@font-face {
+  font-family: D-Din-md;
+  src: url(/public/fonts/D-DIN.otf);
+}
+
 * {
-  font-family: D-Din !important;
+  font-family: D-Din-md;
   color: white !important;
 }
 
+h1 {
+  font-family: D-Din !important;
+}
 h2 {
   text-transform: uppercase;
 }
@@ -173,4 +181,27 @@ h2 {
 
 .btn {
   border-radius: 0px !important;
+}
+
+/* tokenomics section  */
+
+.tokenomic-wrapper {
+  background-image: url(/public/gallery/tokenomics-bg.png);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .row {
+    border-bottom: 1px solid #ffffff4d;
+  }
+}
+
+.tokenomic-main {
+  width: 40%;
+  padding-top: 10rem;
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
 }
