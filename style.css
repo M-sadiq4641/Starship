@@ -1,0 +1,176 @@
+.text-xs {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text-md {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-xl {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.text-2xl {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-3xl {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.text-4xl {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.text-5xl {
+  font-size: 48px;
+}
+
+.text-6xl {
+  font-size: 60px;
+}
+
+.text-7xl {
+  font-size: 72px;
+}
+
+.text-8xl {
+  font-size: 96px;
+}
+
+.text-9xl {
+  font-size: 128px;
+}
+
+/* font weidth */
+
+.font-thin {
+  font-weight: 100;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+.font-black {
+  font-weight: 900;
+}
+
+/* font weidght ends here */
+
+@font-face {
+  font-family: D-Din;
+  src: url(/public/fonts/D-DIN-Bold.otf);
+}
+
+* {
+  font-family: D-Din !important;
+  color: white !important;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+/* hero section  */
+
+.hero-wrapper {
+  background-image: url(/public/gallery/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  @media (max-width: 992px) {
+    object-fit: initial !important;
+  }
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.hero-h1 {
+  bottom: 260px;
+  left: 190px;
+  line-height: 50px;
+  /* text-shadow: 0.5px 0.5px 0.5px black; */
+  text-shadow: 2px 2px 2px #000000;
+
+  @media (max-width: 992px) {
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    line-height: 40px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 30px;
+    width: 100%;
+    line-height: normal;
+    bottom: 300px;
+  }
+}
+
+.hero-p {
+  bottom: 170px;
+  left: 190px;
+  width: 587px;
+  text-shadow: 1px 1px 1px #000000;
+  text-wrap: balance;
+
+  @media (max-width: 992px) {
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 80%;
+  }
+}
+
+.hero-button {
+  bottom: 140px;
+  left: 190px;
+  @media (max-width: 992px) {
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+.hero-button:hover {
+  color: white !important;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
