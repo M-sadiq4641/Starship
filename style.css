@@ -238,6 +238,10 @@ h2 {
 
 .roadmap-wrapper {
   min-height: 50vh;
+
+  @media (max-width: 768px) {
+    min-height: 40vh;
+  }
 }
 
 .roadmap-scroll {
@@ -260,3 +264,5 @@ h2 {
 .roadmap-scroll::-webkit-scrollbar {
   height: 1px;
 }
+
+/* pre footer section  */
