@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <title>Vite App</title>
+    <title>starship</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,23 +34,23 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto gap-3 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link ms-lg-3 active" aria-current="page" href="#"
+                <a class="nav-link ms-lg-3 active nav-text" aria-current="page" href="#tokenomic-wrapper"
                   >Tokenomics</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Roadmap</a>
+                <a class="nav-link nav-text" href="#roadmap-wrapper">Roadmap</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link nav-text" href="#contact-us">Contact us</a>
               </li>
             </ul>
-            <span class="navbar-text">
-              <img class="me-3" src="/gallery/twitter.png" width="40px" />
-              <img class="me-3" src="/gallery/telegram.png" width="40px" />
-              <img class="me-3" src="/gallery/uni.svg" width="45px" />
-              <img class="me-3" src="/gallery/trading.png" width="40px" />
-              <img class="me-3" src="/gallery/logo-5.png" width="30px" />
+            <span class="navbar-text nav-logos">
+              <img class="me-3 cursor-pointer" src="/gallery/twitter.png" width="40px" />
+              <img class="me-3 cursor-pointer" src="/gallery/telegram.png" width="40px" />
+              <img class="me-3 cursor-pointer" src="/gallery/uni.svg" width="45px" />
+              <img class="me-3 cursor-pointer" src="/gallery/trading.png" width="40px" />
+              <img class="me-3 cursor-pointer" src="/gallery/logo-5.png" width="30px" />
             </span>
           </div>
         </div>
@@ -61,7 +61,7 @@
       <!-- hero section  -->
 
       <div class="container">
-        <div class="d-flex flex-column hero-container justify-content-end">
+        <div class="d-flex flex-column hero-container justify-content-end hero-container">
           <h1 class="text-5xl font-bold text-lg-start text-center">
             Starship: Exploring <span class="d-block">New Frontiers</span>
           </h1>
@@ -83,7 +83,7 @@
     <!-- hero section  -->
 
     <!-- tokenomics section  -->
-    <div class="tokenomic-wrapper">
+    <div id="tokenomic-wrapper" class="tokenomic-wrapper">
       <div class="container">
         <div class="tokenomic-main">
           <h1 class="text-5xl font-bold">Tokenomics</h1>
@@ -168,7 +168,7 @@
 
     <!-- roadmap section  -->
 
-    <div class="roadmap-wrapper pt-5">
+    <div id="roadmap-wrapper" class="roadmap-wrapper pt-5">
       <div class="container">
         <h1>Roadmap</h1>
 
@@ -222,6 +222,7 @@
     <!-- footer section -->
 
     <div class="container">
+      <div id="contact-us">
       <p class="my-sm-5 text-center">
         For inquiries about Starship and our human spaceflight program, contact
         <a class="ms-2 text-lg" href="#"> Contact@starship.com</a>
@@ -232,6 +233,7 @@
         <a class="ms-5 text-decoration-none text-lg" href="asd"
           >PRIVACY POLICY</a
         >
+      </div>
       </div>
     </div>
 

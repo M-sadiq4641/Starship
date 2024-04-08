@@ -116,7 +116,17 @@ h2 {
   text-transform: uppercase;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+
 /* hero section  */
+
+.nav-text:hover{
+  color: lightblue!important;
+}
 
 .hero-wrapper {
   background-image: url(/gallery/hero-bg.png);
@@ -129,34 +139,24 @@ h2 {
     object-fit: initial !important;
   }
 }
+
+.hero-container{
+  min-height: 70vh;
+
+  h1{
+     text-shadow: 1px 1px 1px #000000;
+  }
+
+  p{
+     text-shadow: 1px 1px 1px #000000;
+  }
+}
+
 .navbar-toggler {
   background-color: white !important;
 }
 
-.hero-container {
-  height: 70vh;
-
-  p {
-    width: 587px;
-    text-shadow: 1px 1px 1px #000000;
-
-    @media (max-width: 992px) {
-      width: 100%;
-    }
-  }
-
-  h1 {
-    line-height: 50px;
-    text-shadow: 2px 2px 2px #000000;
-
-    @media (max-width: 576px) {
-      font-size: 30px;
-      line-height: normal;
-    }
-  }
-}
-
-.hero-button {
+ .hero-button {
   width: 150px;
 }
 
